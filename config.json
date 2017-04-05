@@ -1,0 +1,15 @@
+{
+  "name": "React Access variables",
+  "identifier": "reactaccess",
+  "type": "R",
+  "icon": "code",
+  "showOn": {
+    "market": false,
+    "dragDrop": true
+  },
+  "view": "modules/reactaccess/index.html",
+  "files": ["modules/reactaccess/controller.js", "modules/reactaccess/main.js"],
+  "scope": {
+    "name": "Test"
+  }
+}
