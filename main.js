@@ -3,7 +3,7 @@ class Hello extends React.Component {
   handleClick (e) {
     
     //structureService access
-    console.log("Structure Object config", React.visualizer.structureService.get());
+    console.log("Structure Object config", React.koapp.structureService.get());
 
     //smartMethodService access
     var toSend = {
@@ -12,7 +12,7 @@ class Hello extends React.Component {
         country: 'es',
         description: 'Description'
       };
-      React.visualizer.smartMethodService.execute('payment', toSend).then(function(response) {
+      React.koapp.smartMethodService.execute('payment', toSend).then(function(response) {
         console.log("Response", response);
       });
   }

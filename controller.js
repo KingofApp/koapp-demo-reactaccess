@@ -10,7 +10,7 @@
   function loadFunction($scope, structureService, $location, smartMethodService) {
     // Register upper level modules
     structureService.registerModule($location, $scope, 'reactaccess');
-    React.visualizer = {
+    React.koapp = {
       'structureService' : structureService,
       'smartMethodService' : smartMethodService
     };
